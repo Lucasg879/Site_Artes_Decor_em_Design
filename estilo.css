@@ -154,14 +154,10 @@ hr{
 	border:10px solid black;
 	border-radius:5px;
 }
-#box1{
-}
 #img_box1{
 	height:100%;
 	width:100%;
 	object-fit: cover;
-}
-#box2{	
 }
 #img_box2{
 	height:100%;
@@ -176,9 +172,6 @@ hr{
 	object-fit:cover;
 	background-origin:padding-box;
 	background-clip: padding-box;	
-}
-#img_box3{
-	
 }
 .ctn_lgnd{
 	width:100%;
