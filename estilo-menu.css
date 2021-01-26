@@ -5,8 +5,8 @@
 	width:100%;
 	align-items:center;
 	/*background-color: #A8A2A2;*/
-	background-color: #f0a500;
-	/*background-image: linear-gradient(#FFFF00, #f0a500);*/
+	/*background-color: #f0a500;*/
+	background-image: linear-gradient(#FFFF00, #f0a500);
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	text-align:center;
