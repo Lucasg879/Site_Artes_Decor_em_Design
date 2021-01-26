@@ -6,64 +6,74 @@
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<link rel="stylesheet" type="text/css" href="estilo-menu.css">
 		<link rel="stylesheet" type="text/css" href="estilo-rodape.css">
-		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Bangers&family=Dancing+Script:wght@500&family=Indie+Flower&family=Lobster&family=Nunito:wght@300&family=PT+Sans+Narrow&family=Pangolin&family=Raleway+Dots&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2? família=Fenix&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2? família=Potta+One&display=swap" rel="stylesheet">
 		<title></title>
 	</head>
 	<body>
 		<!--Barra de Navegação -->
-		<nav class="n-bar">
+		<nav id="n-bar">
 			<div class="n-container">
-				<a href="index.html" class="nome-st"><h1>Artes Decor em Design</h1></a>
+				<a href="#ctn_slider" class="logo"><h1>ARTES DECOR EM DESIGN</h1></a>
 			</div>
 			<div class="n-container-dire">
-				<a href="#" class="logo2" id="l2" onclick="descer()">Sobre Nós</a>
+				<a href="#ctn_ttl_ctn_box" class="logo2" id="l2" onclick="descer()">Serviços</a>
 				<a href="#rodapé" class="logo3" id="l3">Rodapé</a>
-				<a href="#dvslider" class="logo4">Imagens </a>
+				<a href="#rodapé" class="logo4">Contato </a>
 				<!--Redes Sociais da barra de navegação-->
-				<a href="https://www.instagram.com/renato.caetano.1441/?hl=pt-br"><img src="../imgs/inst.png" style="width: 28px; height: 28px;"></a>
+				<a href="https://www.instagram.com/renato.caetano.1441/?hl=pt-br"><img src="insta_logo.png" style="width: 28px; height: 28px;"></a>
+				<p>(19)989053029<br>(19)995305820<br>(19)984040323
+				</p>
 			</div>		
 		</nav>
 		<div id="sup"></div>
 		<p id="teste" style="color: white;"></p>
 		<!--Divisão do carrossel -->
-		<div id="dvslider">
-			<div class="dvsl">
-				<h1 class="ttl-pri">O melhor para você</h1>
-				<p class="dv1">site criado com intutuito de apresentar nosso serviço ao publico em geral que queira sua casa ou sua empresa muito bem pintada</p>
-			</div>
+		<div id="ctn_slider">
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 		<!--Divisão de pequenas caixas--> 
-		<div class="container-with-box">
-			<!--Primeira Caixa-->
-			<section class="content" id="box1"><img src="../imgs/parede1.jpg" alt="nenhum resultado" id="img-box1"></section>
-			<!--Segunda Caixa-->
-			<section class="content" id="box2"><img src="" alt=""></section>
-			<!--Terceira caixa-->
-			<section class="content" id="box3"><img src="" alt=""></section>
+		<div id="ctn_ttl_ctn_box">
+			<h1 class="ttl_ctn_box"> Varíedades de serviços para sua empresa ou residencia ficar mais bonita</h1>
+		</div>
+			<div id="ctn_box">
+				<!--Primeira Caixa-->
+				<section class="content" id="box1"><img src="parede1.jpg" alt="" id="img_box1"></section>
+				<!--Segunda Caixa-->
+				<section class="content" id="box2"><img src="textura.jpg" alt="" id="img_box2"></section>
+				<!--Terceira caixa-->
+				<section class="content" id="box3"><img src="" alt=""></section>
+			</div>
+		<div class="ctn_lgnd">
+			<p class="lgnd" style="width:33%;">pintura</p>
+			<p class="lgnd" style="width:33%;">textura</p>
+			<p class="lgnd" style="width:33%;">gesso</p>
+		</div>
+		<div class="ctn_ctn_sobre">
+			<div class="ctn_sobre"><h1 class="ttl_sobre">Sobre nós</h1><br><p class="p_sobre">Somos uma empresa que visa o conforto do cliente, com sua casa ou empressa reformada com qualidade levando conforto ao cliente</p></div>
 		</div>
 		<!--Botão flutuante-->
 		<button id="btnTop" onclick="backTop()">clique aqui</button>
 		<!--Rodapé-->
 		<footer id="rodapé">
-			<div class="sobre">
-				<h1></h1>
-				<p class="r1">sobre nós
-					focado em proporcionar ao cliente um serviço de maior qualidade
+			<div class="div1">
+				<h2 class="ttl_sobre_nos">Sobre nós</h1>
+				<br>
+				<p class="p_sobre_nos">somos
+					focados em proporcionar ao cliente um serviço de maior qualidade
 				</p>
 			</div>
-			<div class="content-footer">
-				<h2>Contato</h2><br>
-				<p>contate nos</p>
+			<div class="div2">
+				<h2 class="ttl_contato">Contato</h2><br>
+				<p class="p_contato">telefones:
+					<br>
+					(19)984040323-Henrique
+					(19)995305820-Erivaldo
+					(19)989053029-Renato
+				</p>
 			</div>			
-			<div class="content-footer-seg">
+			<div class="div3">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, beatae fuga, neque ducimus veritatis dolorem ipsum suscipit error expedita culpa ratione temporibus in aliquid, facilis eaque! Modi iusto tempora unde.
 			</div>
 		</footer>

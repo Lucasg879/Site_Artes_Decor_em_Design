@@ -1,6 +1,5 @@
 .r1{
-	position:relative;
-	left:50px;
+
 }
 /*rodape*/
 #rodapé{
@@ -9,18 +8,21 @@
 	height:300px;
 	justify-content: space-around;
 	align-items: center;
-	background-color:#A8A2A2;
+	/*background-color:#A8A2A2;*/
+	background-color: #f0a500;
 }
 /*primeira div do rodape*/
-.sobre{
+.div1{
 	display:flex;
 	width:200px;
 	height:100%;
 	align-items:center;
 	text-align:center;
 	justify-content: center;
+	flex-direction: column;
+	font-family:'Fenix', serif;
 }
-.content-footer{
+.div2{
 	display: flex;
 	width: 200px;
 	height: 100%;
@@ -28,12 +30,26 @@
 	justify-content: center;
 	text-align: center;
 	flex-direction: column;
+	font-family:'Fenix', serif;
 }
-.content-footer-seg{
+.div3{
 	display: flex;
 	width: 200px;
 	height:100%;
 	align-items: center;
 	justify-content: center;
-    text-align: center;
+	text-align: center;
+	font-family:'Fenix', serif;
+}
+.ttl_sobre_nos{
+	font-family:'Fenix', serif;
+}
+.p_sobre_nos{
+	font-family:'Fenix', serif;
+}
+.ttl_contato{
+	font-family:'Fenix', serif;
+}
+.p_contato{
+	font-family:'Fenix', serif;
 }

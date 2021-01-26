@@ -1,15 +1,19 @@
 /*barra de navegação*/
-.n-bar{
+#n-bar{
 	display:flex;
 	height:110px;
 	width:100%;
 	align-items:center;
-	background-color: #A8A2A2;
+	/*background-color: #A8A2A2;*/
+	background-color: #f0a500;
+	/*background-image: linear-gradient(#FFFF00, #f0a500);*/
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	text-align:center;
 	flex-flow: row wrap;
-	font-family: 'Source Sans Pro', sans-serif;
+	position:fixed;
+	color:#1a1c20;
+	z-index:1000;
 	
 }
 .n-container{
@@ -21,19 +25,19 @@
 	text-align:center;
 	justify-content:flex-start;
 	flex-flow: row wrap;
-	font-family: 'Source Sans Pro', sans-serif;
-	
 }
-.n-container a{
-	flex-grow:1;
-}
-.nome-st{
+/*.n-container a{
+	sflex-grow:1;
+}*/
+.logo{
 	text-decoration: none;
-	font:15px;
+	font-size:20px;
+	font-family: 'Potta One', cursive;
+	text-shadow:-1px 0 white, 0 1px white,
+	1px 0 white, 0 -1px white;
 	position: relative;
 	left:40px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: black;
+	color:#1a1c20 ;
 }
 .n-container-dire{
 	display: flex ;
@@ -51,58 +55,44 @@ hr{
 	width:50px;
 	display:inline-block;
 }
-.logo1:hover{
-	background-color:rgba(0,0,0,0.03);
-	border-radius:15px;
-	}
-.logo1{ 
-	font-family: 'Source Sans Pro', sans-serif;
-	color:black;
-	border:3px;
-	padding:10px 10px 10px 10px;
-	font-size:20px;
-	text-decoration:none;
-	position:relative;
-		
-}
 .logo2{ 
-	font-family: 'Source Sans Pro', sans-serif;
-	color:black;
+	font-family:'Fenix', serif;
 	border:3px;
 	padding:10px 10px 10px 10px;
 	font-size:20px;
 	text-decoration:none;
 	position:relative;
-		
+	color:#1a1c20 ;
 
 }
 .logo2:hover{
-	background-color:rgba(0,0,0,0.03);
-	border-radius:15px;
+	color:#f4f4f4;
 
 }
 .logo3{ 
-	font-family: 'Source Sans Pro', sans-serif;
-	color:black;
+	font-family: 'Fenix', serif;
 	border:3px;
 	padding:10px 10px 10px 10px;
 	font-size:20px;
 	text-decoration:none;
 	position:relative;
+	color: #1a1c20;
 	
 
 }
 .logo3:hover{
-	background-color:rgba(0,0,0,0.03);
-	border-radius:15px;
+	color:#f4f4f4;
 
 }
 .logo4{ 
-	font-family: 'Source Sans Pro', sans-serif;
-	color:black;
+	font-family: 'Fenix', serif;
 	border:3px;
 	padding:10px 10px 10px 10px;
 	font-size:20px;
 	text-decoration:none;
-    position:relative;
+	position:relative;
+	color: #1a1c20;
+}
+.logo4:hover{
+	color:#f4f4f4;
 }

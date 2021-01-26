@@ -6,7 +6,7 @@ var tmp;
 
 function preCarregameto(){
     var s=1;
-    for(var i=0;i<3;i++){
+    for(var i=0;i<2;i++){
         imags[i]=new Image();
         imags[i].src="s"+s+".jpg";
         s++;
@@ -19,7 +19,7 @@ function inicia(){
     preCarregameto();
     imgAtual=0;
     maxImg=imags.length-1;
-    slider=document.getElementById("dvslider");
+    slider=document.getElementById("ctn_slider");
     carregarImg(imgAtual); 
     tmp=setInterval(troca,3000);
 }
